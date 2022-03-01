@@ -15,11 +15,11 @@ C:/Users/user/Documents/GitHub/4025047/WebGame_40725047_20220222_A
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-2614
+1573
 Successfully changed project path to: C:/Users/user/Documents/GitHub/4025047/WebGame_40725047_20220222_A
 C:/Users/user/Documents/GitHub/4025047/WebGame_40725047_20220222_A
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 40.48 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 40.29 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.25f1 (9b9180224418)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
@@ -35,39 +35,39 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56376
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56976
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004005 seconds.
+Registered in 0.004250 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 38.18 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 37.39 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.506 seconds
+- Completed reload, in  0.521 seconds
 Domain Reload Profiling:
-	ReloadAssembly (506ms)
-		BeginReloadAssembly (60ms)
+	ReloadAssembly (521ms)
+		BeginReloadAssembly (61ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (374ms)
-			LoadAssemblies (57ms)
+		EndReloadAssembly (388ms)
+			LoadAssemblies (58ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (120ms)
+			SetupTypeCache (128ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (139ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (141ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (38ms)
+				RefreshPlugins (37ms)
 				BeforeProcessingInitializeOnLoad (7ms)
-				ProcessInitializeOnLoadAttributes (67ms)
+				ProcessInitializeOnLoadAttributes (69ms)
 				ProcessInitializeOnLoadMethodAttributes (22ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -75,52 +75,52 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006445 seconds.
+Registered in 0.006094 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 37.97 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 37.42 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.988 seconds
+- Completed reload, in  0.982 seconds
 Domain Reload Profiling:
-	ReloadAssembly (989ms)
-		BeginReloadAssembly (133ms)
+	ReloadAssembly (983ms)
+		BeginReloadAssembly (142ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (15ms)
-		EndReloadAssembly (792ms)
-			LoadAssemblies (103ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (778ms)
+			LoadAssemblies (107ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (253ms)
+			SetupTypeCache (248ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (302ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (300ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (38ms)
-				BeforeProcessingInitializeOnLoad (78ms)
-				ProcessInitializeOnLoadAttributes (154ms)
+				RefreshPlugins (37ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (157ms)
 				ProcessInitializeOnLoadMethodAttributes (14ms)
-				AfterProcessingInitializeOnLoad (13ms)
+				AfterProcessingInitializeOnLoad (12ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2194 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 95.8 MB.
 System memory in use after: 95.9 MB.
 
 Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2627.
-Total: 2.369700 ms (FindLiveObjects: 0.131600 ms CreateObjectMapping: 0.059700 ms MarkObjects: 2.130500 ms  DeleteObjects: 0.047200 ms)
+Total: 2.437000 ms (FindLiveObjects: 0.133300 ms CreateObjectMapping: 0.062400 ms MarkObjects: 2.192600 ms  DeleteObjects: 0.048100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -134,273 +134,833 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Pixel Art Top Down - Basic/Texture/TX Tileset Wall.png
-  artifactKey: Guid(f95ec1c429e133446afb443875e301d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Art Top Down - Basic/Texture/TX Tileset Wall.png using Guid(f95ec1c429e133446afb443875e301d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce0c9c08e078daf0a93683ee37b2857b') in 0.120805 seconds 
-  Import took 0.123351 seconds .
+  path: Assets/圖片
+  artifactKey: Guid(f14c3470e3cfb1a45bdcde79f4654278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片 using Guid(f14c3470e3cfb1a45bdcde79f4654278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d4c520b0336be79405024bf2244d31b') in 0.003635 seconds 
+  Import took 0.005886 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/Pixel Art Top Down - Basic/Texture/TX Struct.png
+  Time since last request: 0.000208 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Tileset Wall.png
+  artifactKey: Guid(f95ec1c429e133446afb443875e301d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Tileset Wall.png using Guid(f95ec1c429e133446afb443875e301d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc4ed4e6347fab9595da62b821deb1ec') in 0.140496 seconds 
+  Import took 0.142921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Struct.png
   artifactKey: Guid(5957792829c30e94f9a2b00a37a42a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Art Top Down - Basic/Texture/TX Struct.png using Guid(5957792829c30e94f9a2b00a37a42a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28388c1916e1ea75f81e875fb6402e30') in 0.017627 seconds 
-  Import took 0.020042 seconds .
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Struct.png using Guid(5957792829c30e94f9a2b00a37a42a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbf7a18a4a8243b399c8628dbe742ffe') in 0.036020 seconds 
+  Import took 0.038431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic
+  artifactKey: Guid(56d11bfce5b2ab048a2d3052be12d76d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic using Guid(56d11bfce5b2ab048a2d3052be12d76d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '415cf9bb58512cba557b95c8e7631378') in 0.001453 seconds 
+  Import took 0.003532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture
+  artifactKey: Guid(afd80b889997f2b4d9c2f42bc8819599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture using Guid(afd80b889997f2b4d9c2f42bc8819599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24198222406d1d7be5ddda5add0005c9') in 0.001571 seconds 
+  Import took 0.004002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Plant.png
+  artifactKey: Guid(b5e7ec8da901e9740b7695ab90efb982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Plant.png using Guid(b5e7ec8da901e9740b7695ab90efb982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e072827563ec03e11918efd528ca89d') in 0.065806 seconds 
+  Import took 0.068480 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000190 seconds.
-  path: Assets/Pixel Art Top Down - Basic
-  artifactKey: Guid(56d11bfce5b2ab048a2d3052be12d76d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Art Top Down - Basic using Guid(56d11bfce5b2ab048a2d3052be12d76d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc7e401c49ea54da2a858e530bd4586b') in 0.001567 seconds 
-  Import took 0.004816 seconds .
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Shadow.png
+  artifactKey: Guid(9960b085c43d225468f861967534831d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Shadow.png using Guid(9960b085c43d225468f861967534831d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39716f5ba83d1fa2ac1aa406d77662c5') in 0.086878 seconds 
+  Import took 0.089505 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Pixel Art Top Down - Basic/Texture
-  artifactKey: Guid(afd80b889997f2b4d9c2f42bc8819599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Art Top Down - Basic/Texture using Guid(afd80b889997f2b4d9c2f42bc8819599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b51726599a2481d340f929f6bec3851b') in 0.001858 seconds 
-  Import took 0.004603 seconds .
+  Time since last request: 0.000186 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/森林調色盤.prefab
+  artifactKey: Guid(3fdd56a17f39fb047a681464807ca5d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/森林調色盤.prefab using Guid(3fdd56a17f39fb047a681464807ca5d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b7405128ea23dedd4ae0f0dc945ce82') in 0.045987 seconds 
+  Import took 0.048380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Shadow Plant.png
+  artifactKey: Guid(51072cdc6d95e71429615c6a99145328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Shadow Plant.png using Guid(51072cdc6d95e71429615c6a99145328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbd7b11c0ef2c08f7fe3ff147babf94a') in 0.026000 seconds 
+  Import took 0.028416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Tileset Grass.png
+  artifactKey: Guid(a3864780e60af254d8876c4506dc9515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Tileset Grass.png using Guid(a3864780e60af254d8876c4506dc9515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a47ca6968b667fb088fee3e2ab25bf7') in 0.010641 seconds 
+  Import took 0.013196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Tileset Stone Ground.png
+  artifactKey: Guid(112e60eab11a27f4d8cd6300cb67a3c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Tileset Stone Ground.png using Guid(112e60eab11a27f4d8cd6300cb67a3c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ee1df656adb3abd4b476cf4b9fe1c52') in 0.078454 seconds 
+  Import took 0.081020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Player.png
+  artifactKey: Guid(c4edd19630c0ea742bf411f57d1cf107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Player.png using Guid(c4edd19630c0ea742bf411f57d1cf107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a9a5522d8466f43c6febe95ee982cc8') in 0.020581 seconds 
+  Import took 0.023082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props.png
+  artifactKey: Guid(d32502476815d8d4bb8904b79f7f535a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props.png using Guid(d32502476815d8d4bb8904b79f7f535a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74d28c0236620e6d04f87366cb728cca') in 0.087658 seconds 
+  Import took 0.090130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.860379 seconds.
+  path: Assets/場景
+  artifactKey: Guid(170d97c54f9feae439220bb6c6eacb91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景 using Guid(170d97c54f9feae439220bb6c6eacb91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e910c38bc2e92a89e8bd3b8a32855ca') in 0.001877 seconds 
+  Import took 0.004938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.157936 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Tileset Grass.png
+  artifactKey: Guid(a3864780e60af254d8876c4506dc9515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Tileset Grass.png using Guid(a3864780e60af254d8876c4506dc9515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c583681b54509c312222f5d060469010') in 0.006457 seconds 
+  Import took 0.009221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 76.734837 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Tileset Grass.png
+  artifactKey: Guid(a3864780e60af254d8876c4506dc9515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Tileset Grass.png using Guid(a3864780e60af254d8876c4506dc9515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '103fdb23bb78f23e75b584a56440101d') in 0.064060 seconds 
+  Import took 0.066889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.011216 seconds.
+  path: Assets/TX Tileset Grass_0.asset
+  artifactKey: Guid(eb3926511f441004db3661af441e06f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TX Tileset Grass_0.asset using Guid(eb3926511f441004db3661af441e06f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '223957f39cc2fa3dec7425f9b410b8da') in 0.017666 seconds 
+  Import took 0.020452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/TX Tileset Grass_9.asset
+  artifactKey: Guid(338be4156d748324c96e7da0fa166ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TX Tileset Grass_9.asset using Guid(338be4156d748324c96e7da0fa166ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a86210c373823693156109e76ff0a8e7') in 0.006035 seconds 
+  Import took 0.008440 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000224 seconds.
-  path: Assets/Pixel Art Top Down - Basic/Texture/TX Plant.png
-  artifactKey: Guid(b5e7ec8da901e9740b7695ab90efb982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Art Top Down - Basic/Texture/TX Plant.png using Guid(b5e7ec8da901e9740b7695ab90efb982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09ce2a12d65fc3a3d6b95b10bab4140e') in 0.015595 seconds 
-  Import took 0.018545 seconds .
+  path: Assets/TX Tileset Grass_2.asset
+  artifactKey: Guid(2b04c214f9ccc2b4d95cbd0e49a9d496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TX Tileset Grass_2.asset using Guid(2b04c214f9ccc2b4d95cbd0e49a9d496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d28fe91037e4c77e5d2b836a4e46e8d') in 0.006593 seconds 
+  Import took 0.009206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/TX Tileset Grass_12.asset
+  artifactKey: Guid(e629c743f7d91d64cb119869fff3c8dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TX Tileset Grass_12.asset using Guid(e629c743f7d91d64cb119869fff3c8dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff27782076f6e40b616d01ac7bad9fab') in 0.015028 seconds 
+  Import took 0.017792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/TX Tileset Grass_13.asset
+  artifactKey: Guid(032fccfb18863904ab6eaa38f2e8186b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TX Tileset Grass_13.asset using Guid(032fccfb18863904ab6eaa38f2e8186b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92d61442018efaa81eb73852e5e68b5b') in 0.012578 seconds 
+  Import took 0.015232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/TX Tileset Grass_15.asset
+  artifactKey: Guid(a49843cf54e2d454685e932264a98e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TX Tileset Grass_15.asset using Guid(a49843cf54e2d454685e932264a98e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13c8a93fe8a1587c5780c2cdd934be90') in 0.006301 seconds 
+  Import took 0.009264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/TX Tileset Grass_14.asset
+  artifactKey: Guid(d12ee28162198d247938285f2be67d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TX Tileset Grass_14.asset using Guid(d12ee28162198d247938285f2be67d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e3f037ab3d04df2040cbf0a24bae1ba') in 0.006845 seconds 
+  Import took 0.009715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/TX Tileset Grass_7.asset
+  artifactKey: Guid(ec0a113242963d44d8ee02122dd49644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TX Tileset Grass_7.asset using Guid(ec0a113242963d44d8ee02122dd49644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aab8ca6262798e50a05401da23febf6d') in 0.011157 seconds 
+  Import took 0.013945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/TX Tileset Grass_3.asset
+  artifactKey: Guid(59717bb8cd75ab649afd7893aaeb4808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TX Tileset Grass_3.asset using Guid(59717bb8cd75ab649afd7893aaeb4808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54244e60c6fbaf6d1050705118a6697c') in 0.012317 seconds 
+  Import took 0.015016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/TX Tileset Grass_10.asset
+  artifactKey: Guid(fd95c2230d9f7b64b8187b6802f79eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TX Tileset Grass_10.asset using Guid(fd95c2230d9f7b64b8187b6802f79eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d7ef505c40f8754301b334dc62cb6d9') in 0.007172 seconds 
+  Import took 0.009727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/TX Tileset Grass_6.asset
+  artifactKey: Guid(b470b16595b318646a79a4227c689f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TX Tileset Grass_6.asset using Guid(b470b16595b318646a79a4227c689f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70140accd8a248b9cf0753c378475614') in 0.007403 seconds 
+  Import took 0.009955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/森林調色盤.prefab
+  artifactKey: Guid(3fdd56a17f39fb047a681464807ca5d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/森林調色盤.prefab using Guid(3fdd56a17f39fb047a681464807ca5d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d5ace4f5bc93a13203f535492b5b212') in 0.015524 seconds 
+  Import took 0.018362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/TX Tileset Grass_1.asset
+  artifactKey: Guid(33ca7db87247e48419bc39c4ab14f3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TX Tileset Grass_1.asset using Guid(33ca7db87247e48419bc39c4ab14f3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a82938032eeaebcc23f2f24791ba685') in 0.008220 seconds 
+  Import took 0.010773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/TX Tileset Grass_11.asset
+  artifactKey: Guid(0d5d54448d42e5b4c984cfd2239cd0e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TX Tileset Grass_11.asset using Guid(0d5d54448d42e5b4c984cfd2239cd0e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32d4545b46b1b5bd12bdf8f1377bc5f6') in 0.007122 seconds 
+  Import took 0.009831 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000181 seconds.
-  path: Assets/Pixel Art Top Down - Basic/Texture/TX Shadow.png
-  artifactKey: Guid(9960b085c43d225468f861967534831d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Art Top Down - Basic/Texture/TX Shadow.png using Guid(9960b085c43d225468f861967534831d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb1a13a03fe8a1216af495d1d1f7c11b') in 0.009057 seconds 
-  Import took 0.011763 seconds .
+  path: Assets/TX Tileset Grass_4.asset
+  artifactKey: Guid(02443478c279d714da92242ab17254c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TX Tileset Grass_4.asset using Guid(02443478c279d714da92242ab17254c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c7465f7334e14fd9beaf762a38fec67') in 0.006223 seconds 
+  Import took 0.008797 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/Pixel Art Top Down - Basic/Texture/TX Shadow Plant.png
-  artifactKey: Guid(51072cdc6d95e71429615c6a99145328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Art Top Down - Basic/Texture/TX Shadow Plant.png using Guid(51072cdc6d95e71429615c6a99145328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c250370dc66a4298a2680e2cd502299d') in 0.007677 seconds 
-  Import took 0.010323 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/Pixel Art Top Down - Basic/Texture/TX Tileset Grass.png
-  artifactKey: Guid(a3864780e60af254d8876c4506dc9515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Art Top Down - Basic/Texture/TX Tileset Grass.png using Guid(a3864780e60af254d8876c4506dc9515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5802fabdec03f2c939b51a045792b03') in 0.008678 seconds 
-  Import took 0.011249 seconds .
+  Time since last request: 0.000183 seconds.
+  path: Assets/TX Tileset Grass_5.asset
+  artifactKey: Guid(36037e27ea5b1a247bd6024ab9a91e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TX Tileset Grass_5.asset using Guid(36037e27ea5b1a247bd6024ab9a91e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe3b61f83ce2b929668c0fcc05befc9f') in 0.012189 seconds 
+  Import took 0.014890 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000159 seconds.
-  path: Assets/Pixel Art Top Down - Basic/Texture/TX Tileset Stone Ground.png
-  artifactKey: Guid(112e60eab11a27f4d8cd6300cb67a3c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Art Top Down - Basic/Texture/TX Tileset Stone Ground.png using Guid(112e60eab11a27f4d8cd6300cb67a3c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f7e78dc78e161b5b8ca7effe4c57198') in 0.009098 seconds 
-  Import took 0.011938 seconds .
+  path: Assets/TX Tileset Grass_8.asset
+  artifactKey: Guid(e6a24ac9b83e35c43a943ea6a6aaf935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TX Tileset Grass_8.asset using Guid(e6a24ac9b83e35c43a943ea6a6aaf935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '482c486afea8b1067806f77ad2d05272') in 0.006645 seconds 
+  Import took 0.009199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 139.144203 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Tileset Grass.png
+  artifactKey: Guid(a3864780e60af254d8876c4506dc9515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Tileset Grass.png using Guid(a3864780e60af254d8876c4506dc9515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d551cdd649b74c94a997145b28b90e3') in 0.050762 seconds 
+  Import took 0.053555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.779271 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Tileset Grass.png
+  artifactKey: Guid(a3864780e60af254d8876c4506dc9515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Tileset Grass.png using Guid(a3864780e60af254d8876c4506dc9515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ada733e7f552d90f73fdfabbd02311d6') in 0.049908 seconds 
+  Import took 0.052652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.547056 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Tileset Grass.png
+  artifactKey: Guid(a3864780e60af254d8876c4506dc9515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Tileset Grass.png using Guid(a3864780e60af254d8876c4506dc9515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fd4ebb0b0199588ca8799d3b7edb871') in 0.065774 seconds 
+  Import took 0.068505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.828752 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Tileset Grass.png
+  artifactKey: Guid(a3864780e60af254d8876c4506dc9515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Tileset Grass.png using Guid(a3864780e60af254d8876c4506dc9515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8f7328966ba4d0be51d4fd8d7db88c3') in 0.042916 seconds 
+  Import took 0.045682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1553.248324 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_0.asset
+  artifactKey: Guid(df9f6fe2c2eda4b4cbeba58c84a526bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_0.asset using Guid(df9f6fe2c2eda4b4cbeba58c84a526bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95cd39d8fb0f33f2462699000898548f') in 0.005557 seconds 
+  Import took 0.008796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_25.asset
+  artifactKey: Guid(b6884c58421276e4d87ff60f6db5f95d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_25.asset using Guid(b6884c58421276e4d87ff60f6db5f95d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fce3a2bff52a48af59d4b91c285e1062') in 0.005372 seconds 
+  Import took 0.007883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_9.asset
+  artifactKey: Guid(47f8e0fffa57b514e970a56d43a58127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_9.asset using Guid(47f8e0fffa57b514e970a56d43a58127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4dca4cfa4ea0fac103d26728c537886') in 0.006197 seconds 
+  Import took 0.008821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_5.asset
+  artifactKey: Guid(d0ebd6c0484aaac4f9c84d4eeaf185f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_5.asset using Guid(d0ebd6c0484aaac4f9c84d4eeaf185f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd84377fe7ffacebda285df591266952') in 0.005454 seconds 
+  Import took 0.008023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_27.asset
+  artifactKey: Guid(5417219436df3bb42b1320cbab96ab4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_27.asset using Guid(5417219436df3bb42b1320cbab96ab4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd71e6837984d4d2fdc0ce6aa5f7589c4') in 0.005506 seconds 
+  Import took 0.008062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_6.asset
+  artifactKey: Guid(aa9e1697b95a3d7428ec4bc2d3354d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_6.asset using Guid(aa9e1697b95a3d7428ec4bc2d3354d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68f84126684e235c99879f17562c9ef2') in 0.005884 seconds 
+  Import took 0.008620 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000168 seconds.
-  path: Assets/Pixel Art Top Down - Basic/Texture/TX Player.png
-  artifactKey: Guid(c4edd19630c0ea742bf411f57d1cf107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Art Top Down - Basic/Texture/TX Player.png using Guid(c4edd19630c0ea742bf411f57d1cf107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59ed9539f585a5ba26ce6ab5893b61af') in 0.008642 seconds 
-  Import took 0.011312 seconds .
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_7.asset
+  artifactKey: Guid(4ce89edbd09e675468b24f312e73a22b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_7.asset using Guid(4ce89edbd09e675468b24f312e73a22b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3569b97a56d05a4c70828d91548239cc') in 0.006217 seconds 
+  Import took 0.008882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_15.asset
+  artifactKey: Guid(b46974614c15a5544a90751edee28f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_15.asset using Guid(b46974614c15a5544a90751edee28f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5844bbf4cedc608c512238eb040b3d68') in 0.005422 seconds 
+  Import took 0.007874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_26.asset
+  artifactKey: Guid(9fd5518101fca564093f1c20b9d212f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_26.asset using Guid(9fd5518101fca564093f1c20b9d212f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '552b11f002484cf88b99db3bd64b4ff8') in 0.005162 seconds 
+  Import took 0.007697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_14.asset
+  artifactKey: Guid(e20d56bca38326c4882f7dab3a37c5ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_14.asset using Guid(e20d56bca38326c4882f7dab3a37c5ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68d2c50dc0624f79919aa4dba5549ad2') in 0.005608 seconds 
+  Import took 0.008165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_24.asset
+  artifactKey: Guid(22a271b2333e48f428a9f71bdc0d1b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_24.asset using Guid(22a271b2333e48f428a9f71bdc0d1b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8956da959ba46da165c3d8b3cb4a9b30') in 0.004911 seconds 
+  Import took 0.007511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_1.asset
+  artifactKey: Guid(af095c40d0c15cc4da9f82077e8b87fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_1.asset using Guid(af095c40d0c15cc4da9f82077e8b87fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e0e48bf16cceed9cda5bbb53e06720d') in 0.005428 seconds 
+  Import took 0.008032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_17.asset
+  artifactKey: Guid(5c3168b5be037a64689781adfa2b40d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_17.asset using Guid(5c3168b5be037a64689781adfa2b40d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60cf33f44264ad7207b79cf93b7d6d1d') in 0.004974 seconds 
+  Import took 0.007405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_28.asset
+  artifactKey: Guid(4ed949dcc51d96f48963c03d9920094c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_28.asset using Guid(4ed949dcc51d96f48963c03d9920094c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a91846c90d0bbb6c077d9568d150131a') in 0.005184 seconds 
+  Import took 0.007695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_2.asset
+  artifactKey: Guid(ea188745d98975a49943dfe4348645f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_2.asset using Guid(ea188745d98975a49943dfe4348645f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79293b949e0e0809676cc9df9570e304') in 0.005110 seconds 
+  Import took 0.007580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_11.asset
+  artifactKey: Guid(d5ff1c17d64de2a4ea630388ddd0f255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_11.asset using Guid(d5ff1c17d64de2a4ea630388ddd0f255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f426bbf95fcf9c72fd047ff18c27c7c6') in 0.005262 seconds 
+  Import took 0.007896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_29.asset
+  artifactKey: Guid(41f29bcb677bebb4b8a464d6af61e4bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_29.asset using Guid(41f29bcb677bebb4b8a464d6af61e4bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3d2a1484dd0e1bd45278df7d8d2455a') in 0.006202 seconds 
+  Import took 0.008927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_3.asset
+  artifactKey: Guid(4ed6981a9271dd642aace8fa35abbd11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_3.asset using Guid(4ed6981a9271dd642aace8fa35abbd11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '818dc4f04d10d8d51f538fd30643d72f') in 0.005468 seconds 
+  Import took 0.007985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_23.asset
+  artifactKey: Guid(0d596f256817bd5479c478f534a73027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_23.asset using Guid(0d596f256817bd5479c478f534a73027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '292ebbfaceee7ebf7e8d56452f4a9d6f') in 0.005231 seconds 
+  Import took 0.007854 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000143 seconds.
-  path: Assets/Pixel Art Top Down - Basic/Texture/TX Props.png
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_12.asset
+  artifactKey: Guid(603c947c88f6f13458179ebd4bf08f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_12.asset using Guid(603c947c88f6f13458179ebd4bf08f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8893dadb017a09e8b0229babad057699') in 0.004935 seconds 
+  Import took 0.007404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_10.asset
+  artifactKey: Guid(714a9000834583b44af3461dd1677b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_10.asset using Guid(714a9000834583b44af3461dd1677b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '119fff71cef02cdf3701fbac6c7b90ee') in 0.005504 seconds 
+  Import took 0.008037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_22.asset
+  artifactKey: Guid(620adc0663c4f474da8047a54973d90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_22.asset using Guid(620adc0663c4f474da8047a54973d90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce90cc94cedf6bbb55267ed955d5dc85') in 0.005312 seconds 
+  Import took 0.007947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.600905 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_40.asset
+  artifactKey: Guid(329a4ec7f377379479edc8dda5b14a23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_40.asset using Guid(329a4ec7f377379479edc8dda5b14a23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '790edd7b2376e4796d523d2a4b0a8b98') in 0.005523 seconds 
+  Import took 0.008317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_48.asset
+  artifactKey: Guid(63089b4b7db825d4abdacf221fcb1d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_48.asset using Guid(63089b4b7db825d4abdacf221fcb1d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a01604934341cfa3120268c8424ccec2') in 0.006040 seconds 
+  Import took 0.008904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_52.asset
+  artifactKey: Guid(84fcb7ddaed333d4bb0c602b64a8a9d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_52.asset using Guid(84fcb7ddaed333d4bb0c602b64a8a9d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50b00a92ecdcd6aff3ab0f7fbd92b657') in 0.005667 seconds 
+  Import took 0.008126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_41.asset
+  artifactKey: Guid(7f636e99b4f837940a770aea1c81f2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_41.asset using Guid(7f636e99b4f837940a770aea1c81f2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af3b1472719fa0cb3aa49b5df2b18c15') in 0.005306 seconds 
+  Import took 0.007872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_46.asset
+  artifactKey: Guid(b2cba3160b3672648a270c475d3ee063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_46.asset using Guid(b2cba3160b3672648a270c475d3ee063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '984f48b4d0d8867b1980aa0e12ee5d18') in 0.006324 seconds 
+  Import took 0.009001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_44.asset
+  artifactKey: Guid(b6af412ec1361f44fb216d0934655efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_44.asset using Guid(b6af412ec1361f44fb216d0934655efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a2f426c167953de1901beff1ce4b698') in 0.005760 seconds 
+  Import took 0.008365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_42.asset
+  artifactKey: Guid(54a926c77a84c104a8b72ff40966045a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_42.asset using Guid(54a926c77a84c104a8b72ff40966045a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f963a5fec084c050408cec99248738ed') in 0.005778 seconds 
+  Import took 0.008484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_49.asset
+  artifactKey: Guid(48a458d6049e66f4182ae019df0ab663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_49.asset using Guid(48a458d6049e66f4182ae019df0ab663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '921b5fdf4d374376689c14d8a1645e36') in 0.005171 seconds 
+  Import took 0.007713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_50.asset
+  artifactKey: Guid(bda6ab6e440a9454983cb4623ea0780a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_50.asset using Guid(bda6ab6e440a9454983cb4623ea0780a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbaf0af10a0f02b180ed0cea8e003179') in 0.005438 seconds 
+  Import took 0.008055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_47.asset
+  artifactKey: Guid(1bcf765060b13c048b51cc5dbd92c4cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_47.asset using Guid(1bcf765060b13c048b51cc5dbd92c4cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4204f6e1dd51db04b34395c8fe808c6a') in 0.005120 seconds 
+  Import took 0.007564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_43.asset
+  artifactKey: Guid(d796e4ed705744140b06c1eb8f4d859d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_43.asset using Guid(d796e4ed705744140b06c1eb8f4d859d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad95e529232d4f7514662574be278e02') in 0.005145 seconds 
+  Import took 0.007707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_45.asset
+  artifactKey: Guid(06614c9074d50f846a8997665a2c6021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_45.asset using Guid(06614c9074d50f846a8997665a2c6021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9af05c724df1c428075191a6529e3adf') in 0.005089 seconds 
+  Import took 0.007609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_51.asset
+  artifactKey: Guid(88f06c631d53d1a46978a0b75f6bebb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_51.asset using Guid(88f06c631d53d1a46978a0b75f6bebb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d4bdd6ceebe9dbfc2e9b4c9a6ed977a') in 0.005361 seconds 
+  Import took 0.008075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.211342 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_33.asset
+  artifactKey: Guid(dd0a804fb1a01014c966447f27cb4b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_33.asset using Guid(dd0a804fb1a01014c966447f27cb4b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e72054d6024a5064a1ab3f97a7703ee4') in 0.006347 seconds 
+  Import took 0.008905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_37.asset
+  artifactKey: Guid(7d3fcf04eb12d5a45bdbe8a30df0761a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_37.asset using Guid(7d3fcf04eb12d5a45bdbe8a30df0761a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f735d333c3a5c642f22519665574f087') in 0.006300 seconds 
+  Import took 0.009149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_39.asset
+  artifactKey: Guid(2d20583ab7ccb004396ad5c581d925fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_39.asset using Guid(2d20583ab7ccb004396ad5c581d925fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d6237d913eaf9ccce213a5e8309a510') in 0.005365 seconds 
+  Import took 0.007897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_38.asset
+  artifactKey: Guid(f30158fd98e4cd448bdd637ce8c089dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_38.asset using Guid(f30158fd98e4cd448bdd637ce8c089dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '731049906e9458181311ae453cb1c254') in 0.005820 seconds 
+  Import took 0.008065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.181001 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_30.asset
+  artifactKey: Guid(899b7e3ad95f35641ad939a4e1f75017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_30.asset using Guid(899b7e3ad95f35641ad939a4e1f75017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92bc759b76ab05915225bb21834c3a6d') in 0.005925 seconds 
+  Import took 0.008443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_32.asset
+  artifactKey: Guid(b15a69691b7931546ab98efa81a06fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_32.asset using Guid(b15a69691b7931546ab98efa81a06fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '738acb46fce376e51c44fc46d7f8db98') in 0.008961 seconds 
+  Import took 0.011307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_31.asset
+  artifactKey: Guid(fb097a576ed70474b90d6c9c56baf40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props_31.asset using Guid(fb097a576ed70474b90d6c9c56baf40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bffa2a4e6c90d5b7f9bbc9a08fe43dc') in 0.008133 seconds 
+  Import took 0.010980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.294782 seconds.
+  path: Assets/森林調色盤.prefab
+  artifactKey: Guid(3fdd56a17f39fb047a681464807ca5d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/森林調色盤.prefab using Guid(3fdd56a17f39fb047a681464807ca5d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d5758e95e079e3034d069d4c9e0d377') in 0.030423 seconds 
+  Import took 0.033707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.699606 seconds.
+  path: Assets/森林調色盤.prefab
+  artifactKey: Guid(3fdd56a17f39fb047a681464807ca5d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/森林調色盤.prefab using Guid(3fdd56a17f39fb047a681464807ca5d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41813801b21410c7cf50f5a371794c59') in 0.019622 seconds 
+  Import took 0.022382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.391524 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Tileset Grass_0.asset
+  artifactKey: Guid(17ed2dcd6dfb35b41a9b13d75d79f67f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Tileset Grass_0.asset using Guid(17ed2dcd6dfb35b41a9b13d75d79f67f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ecb5fff79038c5a0e79a2aa2269b4d4') in 0.005627 seconds 
+  Import took 0.008493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Tileset Grass_6.asset
+  artifactKey: Guid(32dfe1bcebcfd754d95b26cd1afc99ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Tileset Grass_6.asset using Guid(32dfe1bcebcfd754d95b26cd1afc99ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f73cc41acceb2c92d004d7281ce2ee9f') in 0.007117 seconds 
+  Import took 0.009756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Tileset Grass_2.asset
+  artifactKey: Guid(6de3abe0895297c4fb1e9d1d4f4dc94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Tileset Grass_2.asset using Guid(6de3abe0895297c4fb1e9d1d4f4dc94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e4d67cb6b4266aaca85eeef2f4cfaca') in 0.005243 seconds 
+  Import took 0.007768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Tileset Grass_3.asset
+  artifactKey: Guid(514bec347339a924292f30a7ee0d14b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Tileset Grass_3.asset using Guid(514bec347339a924292f30a7ee0d14b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df44d1da249ea2633413b99379fbcfb9') in 0.005364 seconds 
+  Import took 0.007943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Tileset Grass_7.asset
+  artifactKey: Guid(ae941c8706be84a47953c176841c419a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Tileset Grass_7.asset using Guid(ae941c8706be84a47953c176841c419a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9a042acca50a7d970d9d725456af9b7') in 0.005237 seconds 
+  Import took 0.007821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Tileset Grass_4.asset
+  artifactKey: Guid(864493217dce62b4e968c85d3b46d81f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Tileset Grass_4.asset using Guid(864493217dce62b4e968c85d3b46d81f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd169207246de3a5fc4008c221611f703') in 0.005364 seconds 
+  Import took 0.008196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Tileset Grass_1.asset
+  artifactKey: Guid(5c23380d63e1078428f10b95424e98e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Tileset Grass_1.asset using Guid(5c23380d63e1078428f10b95424e98e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '371326b9bc82802a33268f0aaee530b6') in 0.005409 seconds 
+  Import took 0.008066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Tileset Grass_5.asset
+  artifactKey: Guid(0b1e4bc7cc4adcd49bb47044f5e78d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Tileset Grass_5.asset using Guid(0b1e4bc7cc4adcd49bb47044f5e78d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ed230b357b28d0838202149865bc138') in 0.005666 seconds 
+  Import took 0.008559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.203235 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Tileset Grass_8.asset
+  artifactKey: Guid(06d3822893c0d644bb110f2deb9bba12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Tileset Grass_8.asset using Guid(06d3822893c0d644bb110f2deb9bba12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f47968a9dfebd394f15f643d1d4df4ad') in 0.010452 seconds 
+  Import took 0.013189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Tileset Grass_14.asset
+  artifactKey: Guid(8b7f1e687e982854cad9bee80c172ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Tileset Grass_14.asset using Guid(8b7f1e687e982854cad9bee80c172ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87d9accea1509429cbaee7e28dc45851') in 0.016020 seconds 
+  Import took 0.018540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Tileset Grass_15.asset
+  artifactKey: Guid(eb251dfabf1bdf041865db3961cf2807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Tileset Grass_15.asset using Guid(eb251dfabf1bdf041865db3961cf2807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98e0a0247a133713d89b31d2471b84ea') in 0.010586 seconds 
+  Import took 0.013176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Tileset Grass_13.asset
+  artifactKey: Guid(df80ce044f3b39348892de5d12e0cee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Tileset Grass_13.asset using Guid(df80ce044f3b39348892de5d12e0cee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31a9c36db5549276f07a49d91bb53587') in 0.006426 seconds 
+  Import took 0.009087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Tileset Grass_11.asset
+  artifactKey: Guid(3a8238e76ed4c8141a7693a03da51a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Tileset Grass_11.asset using Guid(3a8238e76ed4c8141a7693a03da51a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '029adbb84178d5567fb7e2d6d85262a6') in 0.011567 seconds 
+  Import took 0.014449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Tileset Grass_10.asset
+  artifactKey: Guid(c3861e3e0356abc4aa73ae8a374c9481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Tileset Grass_10.asset using Guid(c3861e3e0356abc4aa73ae8a374c9481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bd64d971354e308240f918466124bb8') in 0.007582 seconds 
+  Import took 0.010326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Tileset Grass_12.asset
+  artifactKey: Guid(103f8e96d188ea5479cfa0dfee0cc919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Tileset Grass_12.asset using Guid(103f8e96d188ea5479cfa0dfee0cc919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f314615a80e415db10a8ecbc1d0f2982') in 0.014594 seconds 
+  Import took 0.017047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Tileset Grass_9.asset
+  artifactKey: Guid(6ad381ac6f53d6149b2659eda03acc78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Tileset Grass_9.asset using Guid(6ad381ac6f53d6149b2659eda03acc78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36364037cb5d2a71df555b22c631ee3b') in 0.013764 seconds 
+  Import took 0.016453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 476.313046 seconds.
+  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props.png
   artifactKey: Guid(d32502476815d8d4bb8904b79f7f535a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Art Top Down - Basic/Texture/TX Props.png using Guid(d32502476815d8d4bb8904b79f7f535a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eff1dfdde2e91f8f0dd0dfb83bcebd46') in 0.009209 seconds 
-  Import took 0.012011 seconds .
+Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props.png using Guid(d32502476815d8d4bb8904b79f7f535a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '546664de89c792af926688dde3010796') in 0.115329 seconds 
+  Import took 0.118210 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.172248 seconds.
-  path: Assets/FreeKnight_v1/Comparison2x.png
-  artifactKey: Guid(841db180340c5994d8b58a3ecc9caf64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FreeKnight_v1/Comparison2x.png using Guid(841db180340c5994d8b58a3ecc9caf64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ce6b249af09507cf46b0f50dd5900c2') in 0.009732 seconds 
-  Import took 0.013063 seconds .
+  Time since last request: 1318.714989 seconds.
+  path: Assets/森林調色盤.prefab
+  artifactKey: Guid(3fdd56a17f39fb047a681464807ca5d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/森林調色盤.prefab using Guid(3fdd56a17f39fb047a681464807ca5d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '879a6760069e3dc84b96e4169f499da4') in 0.013639 seconds 
+  Import took 0.016737 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/FreeKnight_v1/PromoAnimated2x.gif
-  artifactKey: Guid(31cb785d19bab8c45a9163c45ddfb2d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FreeKnight_v1/PromoAnimated2x.gif using Guid(31cb785d19bab8c45a9163c45ddfb2d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a29e39a97e7d139dbf6fbfdbf20d251') in 0.010588 seconds 
-  Import took 0.013696 seconds .
+  Time since last request: 0.000230 seconds.
+  path: Assets/物件調色盤.prefab
+  artifactKey: Guid(ed48fdfc8f0b52f41bc008d5dc95803e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/物件調色盤.prefab using Guid(ed48fdfc8f0b52f41bc008d5dc95803e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb42af1517f6bf96206651acde4c305b') in 0.025899 seconds 
+  Import took 0.028590 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 25.971941 seconds.
+  Time since last request: 18.553208 seconds.
+  path: Assets/圖片/方形圖片.png
+  artifactKey: Guid(e9d4fe0832d9bd14dbba3fc8398446a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/方形圖片.png using Guid(e9d4fe0832d9bd14dbba3fc8398446a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2303d425e5b83ee2480d41206c91291') in 0.012582 seconds 
+  Import took 0.015429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 799.725879 seconds.
+  path: Assets/Mamelon.otf
+  artifactKey: Guid(15cc0115192682340910d871d9304180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mamelon.otf using Guid(15cc0115192682340910d871d9304180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a18348d79aeb9c1d5e2632be2faa177d') in 0.028042 seconds 
+  Import took 0.031196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.847942 seconds.
   path: Assets
   artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.002326 seconds 
-  Import took 0.005709 seconds .
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.001788 seconds 
+  Import took 0.004776 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.489388 seconds.
-  path: Assets/圖片
-  artifactKey: Guid(f14c3470e3cfb1a45bdcde79f4654278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/圖片 using Guid(f14c3470e3cfb1a45bdcde79f4654278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67ed025616e652aedeeace11717ef315') in 0.001917 seconds 
-  Import took 0.005439 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.767969 seconds.
-  path: Assets/FreeKnight_v1
-  artifactKey: Guid(0f325024c544d0a41bf6d7fe42c8f319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FreeKnight_v1 using Guid(0f325024c544d0a41bf6d7fe42c8f319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a0db28b83ac80b4d4cbc5f07f47a82a') in 0.002348 seconds 
-  Import took 0.005375 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 487.444576 seconds.
-  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Plant.png
-  artifactKey: Guid(b5e7ec8da901e9740b7695ab90efb982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Plant.png using Guid(b5e7ec8da901e9740b7695ab90efb982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b86575559cbbcb9506ef5f27d14d8edb') in 0.015905 seconds 
-  Import took 0.018757 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 55.432740 seconds.
-  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Plant.png
-  artifactKey: Guid(b5e7ec8da901e9740b7695ab90efb982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Plant.png using Guid(b5e7ec8da901e9740b7695ab90efb982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83c27969d28ee611c14ac7745a431c36') in 0.007653 seconds 
-  Import took 0.010315 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 74.506081 seconds.
-  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Plant.png
-  artifactKey: Guid(b5e7ec8da901e9740b7695ab90efb982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Plant.png using Guid(b5e7ec8da901e9740b7695ab90efb982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fc018ff64dbf0b28a80d058257c3e1c') in 0.426430 seconds 
-  Import took 0.429846 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 27.745476 seconds.
-  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Plant.png
-  artifactKey: Guid(b5e7ec8da901e9740b7695ab90efb982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Plant.png using Guid(b5e7ec8da901e9740b7695ab90efb982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1603bd88a707010105ce169d75568935') in 0.084191 seconds 
-  Import took 0.087518 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.822632 seconds.
-  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Player.png
-  artifactKey: Guid(c4edd19630c0ea742bf411f57d1cf107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Player.png using Guid(c4edd19630c0ea742bf411f57d1cf107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '890008d9245fd3fdb5a5a1ffaa911c14') in 0.006448 seconds 
-  Import took 0.009183 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.615120 seconds.
-  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Player.png
-  artifactKey: Guid(c4edd19630c0ea742bf411f57d1cf107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Player.png using Guid(c4edd19630c0ea742bf411f57d1cf107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec884c09ad9427a3c991ec9056870ac6') in 0.018740 seconds 
-  Import took 0.022120 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.499551 seconds.
-  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props.png
-  artifactKey: Guid(d32502476815d8d4bb8904b79f7f535a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props.png using Guid(d32502476815d8d4bb8904b79f7f535a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99b940895bdf43a084b7fde6be18b3d1') in 0.008469 seconds 
-  Import took 0.011351 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 66.437310 seconds.
-  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props.png
-  artifactKey: Guid(d32502476815d8d4bb8904b79f7f535a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Props.png using Guid(d32502476815d8d4bb8904b79f7f535a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5a9bda81fbeb6e6df8f4c03855d048d') in 0.133531 seconds 
-  Import took 0.136751 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.655890 seconds.
-  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Shadow Plant.png
-  artifactKey: Guid(51072cdc6d95e71429615c6a99145328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Shadow Plant.png using Guid(51072cdc6d95e71429615c6a99145328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fafc2eef27ea9b570e57b56304395ba') in 0.006581 seconds 
-  Import took 0.009234 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.492788 seconds.
-  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Shadow Plant.png
-  artifactKey: Guid(51072cdc6d95e71429615c6a99145328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Shadow Plant.png using Guid(51072cdc6d95e71429615c6a99145328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2b70e5e7b2f38c4664be26e80fe1fb8') in 0.031102 seconds 
-  Import took 0.034128 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.364608 seconds.
-  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Shadow.png
-  artifactKey: Guid(9960b085c43d225468f861967534831d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Shadow.png using Guid(9960b085c43d225468f861967534831d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff7261eb0ee8edb3323b86ae7e13dcbb') in 0.006413 seconds 
-  Import took 0.009067 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.316022 seconds.
-  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Shadow.png
-  artifactKey: Guid(9960b085c43d225468f861967534831d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Shadow.png using Guid(9960b085c43d225468f861967534831d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '356eedced072afb03165f6eb6e550233') in 0.183413 seconds 
-  Import took 0.186543 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.437992 seconds.
-  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Struct.png
-  artifactKey: Guid(5957792829c30e94f9a2b00a37a42a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Struct.png using Guid(5957792829c30e94f9a2b00a37a42a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc3681f4bf684ed05f49bd3e07f99a20') in 0.006280 seconds 
-  Import took 0.008899 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.012516 seconds.
-  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Struct.png
-  artifactKey: Guid(5957792829c30e94f9a2b00a37a42a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Struct.png using Guid(5957792829c30e94f9a2b00a37a42a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c95f0a74ad923f7bf0648c372ac9cc72') in 0.025050 seconds 
-  Import took 0.028376 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.813118 seconds.
-  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Tileset Stone Ground.png
-  artifactKey: Guid(112e60eab11a27f4d8cd6300cb67a3c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Tileset Stone Ground.png using Guid(112e60eab11a27f4d8cd6300cb67a3c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9a3fdf372684702ff2a03107e3dae1c') in 0.007743 seconds 
-  Import took 0.010444 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 34.945344 seconds.
-  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Tileset Stone Ground.png
-  artifactKey: Guid(112e60eab11a27f4d8cd6300cb67a3c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Tileset Stone Ground.png using Guid(112e60eab11a27f4d8cd6300cb67a3c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c4800499191e19f41172778ccdda270') in 0.277027 seconds 
-  Import took 0.280052 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.935769 seconds.
-  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Tileset Wall.png
-  artifactKey: Guid(f95ec1c429e133446afb443875e301d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Tileset Wall.png using Guid(f95ec1c429e133446afb443875e301d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '539338c8a049fe23866a37ee81e03c21') in 0.007226 seconds 
-  Import took 0.009916 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.739498 seconds.
-  path: Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Tileset Wall.png
-  artifactKey: Guid(f95ec1c429e133446afb443875e301d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/圖片/Pixel Art Top Down - Basic/Texture/TX Tileset Wall.png using Guid(f95ec1c429e133446afb443875e301d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f41414bf4be565c9a8741a579b4609d') in 0.050585 seconds 
-  Import took 0.053411 seconds .
+  Time since last request: 9.580936 seconds.
+  path: Assets/字型
+  artifactKey: Guid(e175df44c9826324598b1213759281ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/字型 using Guid(e175df44c9826324598b1213759281ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feeb5b62f7be4d46a9c099db45434fb9') in 0.001948 seconds 
+  Import took 0.004831 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
